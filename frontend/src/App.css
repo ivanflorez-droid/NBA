@@ -1,20 +1,22 @@
 /* Scholas NY Career Pathways — design system */
 :root {
-    --ground: #fbfaf7;
-    --warm: #f2eee5;
-    --ink: #14171f;
-    --blue: #0f2a43;
-    --accent: #c2571f;
-    --accent-text: #a8491a;
-    --accent-dark: #e39a6b;
-    --body: #3a404c;
-    --body2: #4a515e;
-    --caption: #6e7684;
-    --hairline: #e2ddd2;
-    --dark-heading: #f5f2ea;
-    --dark-body: #d8d3c7;
-    --dark-muted: #9aa5b2;
-    --dark-hairline: rgba(245, 242, 234, 0.16);
+    --ground: #ffffff;
+    --warm: #f2f7f6;
+    --ink: #13201f;
+    --blue: #0f4b4b;
+    --accent: #1d8080;
+    --accent-text: #016f6b;
+    --accent-button: #017f7a;
+    --accent-bright: #019791;
+    --accent-dark: #a8c4c2;
+    --body: #3b4a49;
+    --body2: #5e6e6d;
+    --caption: #5e6e6d;
+    --hairline: #dce7e5;
+    --dark-heading: #ffffff;
+    --dark-body: #e6f0ef;
+    --dark-muted: #a8c4c2;
+    --dark-hairline: rgba(230, 240, 239, 0.18);
     --font-display: "Newsreader", Georgia, "Times New Roman", serif;
     --font-body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
 }
@@ -30,7 +32,7 @@ html {
 
 ::selection {
     background: var(--accent);
-    color: #fbfaf7;
+    color: #ffffff;
 }
 
 .page {
@@ -179,14 +181,14 @@ section[id] {
     flex: 0 0 auto;
 }
 .btn--solid {
-    background: var(--accent-text);
-    color: #fbfaf7;
+    background: var(--accent-button);
+    color: #ffffff;
 }
 .btn--solid:hover {
-    background: #8f3d15;
+    background: #01605d;
 }
 .btn--outline {
-    border-color: #c9c0ab;
+    border-color: #b7ccc9;
     color: var(--ink);
     background: transparent;
 }
@@ -194,13 +196,13 @@ section[id] {
     border-color: var(--ink);
 }
 .btn--outline-light {
-    border-color: rgba(245, 242, 234, 0.45);
+    border-color: rgba(230, 240, 239, 0.5);
     color: var(--dark-heading);
     background: transparent;
 }
 .btn--outline-light:hover {
-    border-color: #f5f2ea;
-    background: rgba(245, 242, 234, 0.06);
+    border-color: #e6f0ef;
+    background: rgba(255, 255, 255, 0.08);
 }
 .btn-row {
     display: flex;
@@ -219,7 +221,7 @@ section[id] {
 
 /* dashed media placeholders */
 .dashed-box {
-    border: 1.5px dashed #c6bca6;
+    border: 1.5px dashed #b7ccc9;
     border-radius: 3px;
     aspect-ratio: 3 / 2;
     display: flex;
@@ -237,7 +239,7 @@ section[id] {
     color: var(--caption);
 }
 .dashed-box--dark {
-    border-color: rgba(245, 242, 234, 0.45);
+    border-color: rgba(230, 240, 239, 0.5);
 }
 .dashed-box--dark > span {
     color: var(--dark-muted);
@@ -377,6 +379,10 @@ section[id] {
     font-size: 52px;
     line-height: 1;
     margin-bottom: 18px;
+    color: var(--accent-bright);
+}
+.prob__stat .ph {
+    color: var(--caption);
 }
 .prob__label {
     font-size: 16px;
@@ -430,7 +436,7 @@ section[id] {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.08em;
-    color: var(--accent-text);
+    color: var(--accent);
 }
 .adv-list p {
     font-size: 15.5px;
@@ -457,9 +463,9 @@ section[id] {
 .track-card {
     display: flex;
     flex-direction: column;
-    background: rgba(245, 242, 234, 0.045);
+    background: rgba(255, 255, 255, 0.07);
     border: 1px solid var(--dark-hairline);
-    border-top: 3px solid var(--accent);
+    border-top: 3px solid var(--accent-button);
     border-radius: 3px;
     padding: 30px 26px;
 }
@@ -603,7 +609,7 @@ section[id] {
     padding: 30px 28px;
     border: 1px solid var(--dark-hairline);
     border-radius: 3px;
-    background: rgba(245, 242, 234, 0.03);
+    background: rgba(255, 255, 255, 0.07);
 }
 .testi__cat {
     font-size: 11.5px;
@@ -665,7 +671,7 @@ section[id] {
 /* leadership */
 .lead-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin-top: 52px;
 }
@@ -692,6 +698,11 @@ section[id] {
     font-size: 14px;
     line-height: 1.62;
     color: var(--body2);
+}
+.lead-divider {
+    height: 1px;
+    background: var(--hairline);
+    margin: 16px 0;
 }
 .section-note {
     margin-top: 36px;
@@ -726,7 +737,7 @@ section[id] {
     padding: 26px 24px;
     border: 1px solid var(--dark-hairline);
     border-radius: 3px;
-    background: rgba(245, 242, 234, 0.045);
+    background: rgba(255, 255, 255, 0.07);
 }
 .acct-card h3 {
     font-size: 20px;
@@ -747,7 +758,7 @@ section[id] {
     align-items: start;
 }
 .ask-amt {
-    color: var(--accent-text);
+    color: var(--accent-bright);
     white-space: nowrap;
 }
 .ask-text {
@@ -762,6 +773,18 @@ section[id] {
     line-height: 1.65;
     color: var(--caption);
 }
+.budget-table + .budget-table {
+    margin-top: 44px;
+}
+.budget__title {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-text);
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--hairline);
+}
 .budget li {
     display: flex;
     justify-content: space-between;
@@ -771,6 +794,16 @@ section[id] {
     border-top: 1px solid var(--hairline);
     font-size: 14.5px;
     color: var(--body);
+}
+.budget li.budget__group {
+    display: block;
+    border-top: 0;
+    padding: 20px 0 4px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--caption);
 }
 .budget .amt {
     font-weight: 600;

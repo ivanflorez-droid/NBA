@@ -11,31 +11,26 @@ export default function Leadership() {
             <h3>María Jimena Florez</h3>
             <p className="lead-role">President &amp; Executive Director</p>
             <p className="lead-bio">
-              <Ph>[CONFIRM: two lines of bio]</Ph>
+              <Ph>[Bio, two lines]</Ph>
             </p>
           </div>
           <div className="lead-card">
-            <h3>Manuel Deza</h3>
-            <p className="lead-role">Program Facilitator</p>
-            <p className="lead-bio">
-              Psychology, University of Buenos Aires. Has implemented Scholas
-              programs in thirteen countries across four continents.
+            <h3>The Scholas Internship Team</h3>
+            <p className="lead-role">
+              Facilitation and project management, New York
             </p>
-          </div>
-          <div className="lead-card">
-            <h3>Yasmin Jones</h3>
-            <p className="lead-role">Project Manager, Scholas NY</p>
             <p className="lead-bio">
-              Psychology, Penn State. Master&rsquo;s in Mental Health
-              Counseling, Fordham. Former classroom teacher.
+              Credentials in psychology, mental health counseling, education and
+              the creative professions, with Scholas implementation experience
+              across four continents. <Ph>[N]</Ph> years inside our partner
+              schools, which means our facilitators know participating students
+              by name before the program begins.
             </p>
-          </div>
-          <div className="lead-card">
-            <h3>Jorge Valero</h3>
-            <p className="lead-role">Program Facilitator</p>
+            <div className="lead-divider" aria-hidden="true" />
             <p className="lead-bio">
-              BFA, University of Florida. Jorge came through this program as a
-              student in 2019. He now runs sessions in it.
+              One member of the team entered Scholas as a student participant
+              and now facilitates the program that formed them. The ladder
+              already exists. Career Pathways widens it.
             </p>
           </div>
         </div>

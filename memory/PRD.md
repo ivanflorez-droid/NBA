@@ -21,6 +21,7 @@ Build a single-page, funder-facing landing page for Scholas USA (501(c)(3) found
 
 ## Implemented
 - 2026-09-16: Full page, all 15 sections with verbatim copy and placeholder convention; responsive tables that stack with field labels on mobile; 48px touch-target buttons; verified at 1920px and 390px via screenshots; fixed mobile table column-width bug.
+- 2026-09-25: Corrections round — (1) global color swap to Scholas teal palette (#0F4B4B deep bands, #1D8080 rules/numerals, #019791 bright display numerals ≥32px, #016F6B accent text, #017F7A button fills, white ground, #F2F7F6 soft bands, theme-color #0F4B4B); (2) leadership section reduced to two cards (Executive Director + Scholas Internship Team with hairline divider); (3) ask section rebuilt as two-year budget ($100k/yr, two tables with staff/direct-cost group rows). Note: the referenced "Section 11 Sustainability" sentence does not exist on this page, so "Year two funds that step directly" was not added.
 
 ## Backlog (blocked on user data — P0)
 - Fill every [CONFIRM: ...] / [STAT] / [SOURCE: ...] placeholder with verified figures (EIN, youth counts, demographic %, cohort details, mentor names, board list, budget variance explanation, diversification plan, site-visit date)
