@@ -592,10 +592,11 @@ section[id] {
     border-bottom: 1px solid var(--hairline);
 }
 .commit-list .val {
-    font-family: var(--font-display);
-    font-size: 19px;
+    font-weight: 700;
+    font-size: 15px;
     color: var(--ink);
     white-space: nowrap;
+    text-align: right;
 }
 
 /* testimonials */
@@ -1002,5 +1003,66 @@ section[id] {
     .footer__right {
         text-align: left;
         white-space: normal;
+    }
+}
+
+/* program intro + track card internals */
+.program-intro {
+    margin-top: 28px;
+    max-width: 760px;
+}
+.track-card > p + p {
+    margin-top: 12px;
+}
+.track-card strong {
+    color: var(--dark-heading);
+}
+.track__close {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--dark-hairline);
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--dark-heading);
+}
+
+/* skills section */
+.rtable--skills td:first-child {
+    width: 24%;
+}
+.skills-close {
+    margin-top: 48px;
+    max-width: 900px;
+    padding: 32px 36px;
+    background: var(--ground);
+    border: 1px solid var(--hairline);
+    border-radius: 3px;
+}
+.skills-close p {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--ink);
+}
+
+/* commitments closing line */
+.commit-close {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--body2);
+}
+
+@media (max-width: 768px) {
+    .rtable--skills td:first-child {
+        width: 100%;
+    }
+    .skills-close {
+        padding: 26px 22px;
     }
 }

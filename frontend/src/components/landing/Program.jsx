@@ -1,11 +1,9 @@
-import { Ph } from "@/components/landing/Bits";
-
 const STEPS = [
-  "Communities in Motion",
-  "Scholas Club",
+  "Scholas Citizenship",
   "Career Navigation",
-  "Paid studio internship",
-  "Job, internship or post-secondary placement",
+  "Apprenticeship & certification",
+  "Paid client sprint",
+  "W-2, credential, portfolio, reference",
 ];
 
 export default function Program() {
@@ -19,71 +17,90 @@ export default function Program() {
         <p className="eyebrow">The program</p>
         <h2 className="section-h2">Scholas NY Career Pathways</h2>
         <p className="program-sub">Three tracks. One pipeline. Twelve months.</p>
+        <p className="intro program-intro">
+          Career Pathways is a single pipeline, not a set of parallel programs.
+          Everyone who enters the apprenticeship came through Scholas
+          Citizenship first. We only apprentice young people we have already
+          spent six days with, which is why our retention is not a hope but a
+          consequence.
+        </p>
         <div className="tracks">
           <div className="track-card" data-testid="track-01-card">
-            <p className="track__tag">TRACK 01 · AGES 16–21</p>
-            <h3>Digital Media &amp; Content Studio</h3>
+            <p className="track__tag">TRACK 01 · AGES 15–24 · 120 PARTICIPANTS</p>
+            <h3>Scholas Citizenship</h3>
             <p>
-              Scales our existing social media internship from 4–5 seats to 25
-              paid seats a year across two cohorts. Participants produce real
-              work for Scholas and community partners, with a stipend.
+              Our founding program, and it already runs in New York: the last
+              city-wide edition brought together more than 80 students from 8
+              New York high schools. It runs in two stages, and both serve
+              young people the Foundation funds.
+            </p>
+            <p>
+              <strong>
+                Stage one — Guide training, ages 18–24, 20 participants.
+              </strong>{" "}
+              University-age young adults are trained in the Citizenship
+              methodology: theoretical learning, structured reflection and
+              supervised practice facilitating sessions with younger
+              participants. They leave with facilitation experience, a
+              supervisory reference, and the ability to run a room.
+            </p>
+            <p>
+              <strong>
+                Stage two — Immersion, ages 15–17, 100 participants.
+              </strong>{" "}
+              Students from different schools spend six days together, identify
+              the problems that affect them daily, choose one by assembly vote,
+              and build a concrete solution they present to local authorities
+              on the final day. Youth unemployment is among the problems
+              students have historically chosen.
+            </p>
+            <p className="track__close">
+              Not a workshop about leadership. A team delivering a real project
+              to a real audience under a hard deadline.
+            </p>
+          </div>
+          <div className="track-card" data-testid="track-02-card">
+            <p className="track__tag">TRACK 02 · AGES 16–24 · 25 SEATS</p>
+            <h3>Digital Media Apprenticeship</h3>
+            <p>
+              Two cohorts per year. Fourteen weeks of instruction, then a
+              three-week paid client sprint.
             </p>
             <ul>
-              <li>25 paid interns per year, two cohorts</li>
               <li>
-                14 weeks per cohort, <Ph>[CONFIRM: hours per week]</Ph>
+                Seats are open only to Scholas Citizenship participants —
+                immersion students and guides. No separate recruitment, no cold
+                applications.
               </li>
               <li>
                 Social strategy, content production, video editing, brand
                 voice, client communication
               </li>
+              <li>Two proctored industry certification exams per apprentice</li>
               <li>
-                Exit deliverable: a portfolio of published work with real
-                audience metrics
-              </li>
-              <li>
-                One industry mentor matched per participant —{" "}
-                <Ph>[CONFIRM: 3 committed mentors by name]</Ph>
-              </li>
-            </ul>
-          </div>
-          <div className="track-card" data-testid="track-02-card">
-            <p className="track__tag">TRACK 02 · AGES 18–24</p>
-            <h3>Fratelli Tutti Leadership School</h3>
-            <p>
-              Our existing young-adult program, positioned as the
-              durable-skills layer employers say they cannot find:
-              communication, conflict resolution, collaboration, speaking with
-              authority in a room.
-            </p>
-            <ul>
-              <li>
-                <Ph>[CONFIRM: cohort size]</Ph>
-              </li>
-              <li>
-                <Ph>[CONFIRM: duration and meeting frequency]</Ph>
-              </li>
-              <li>
-                Community-based curriculum built on practical learning and
-                dialogue
+                Exit deliverable: a published portfolio of real client work
+                with audience metrics
               </li>
             </ul>
           </div>
           <div className="track-card" data-testid="track-03-card">
-            <p className="track__tag">TRACK 03 · AGES 14–24</p>
+            <p className="track__tag">TRACK 03 · AGES 15–24 · ALL PARTICIPANTS</p>
             <h3>Career Navigation</h3>
             <p>
-              The connective layer that turns participation into placement.
-              Every young person in either track gets it.
+              The connective layer that turns participation into employability.
             </p>
             <ul>
               <li>An individual career plan for every participant</li>
               <li>Résumé, LinkedIn and interview preparation</li>
               <li>
-                Employer site visits — <Ph>[CONFIRM: 2–3 host employers]</Ph>
+                Employer site visits and mock interviews with working
+                professionals
               </li>
-              <li>Post-secondary and certification navigation</li>
-              <li>Six-month follow-up on every participant after exit</li>
+              <li>
+                The invisible curriculum: professional email, invoicing,
+                following up, negotiating pay
+              </li>
+              <li>Six-month follow-up on every participant</li>
             </ul>
           </div>
         </div>

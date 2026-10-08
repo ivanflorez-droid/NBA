@@ -16,9 +16,9 @@ export default function Hero() {
             <h1>Trust is the missing infrastructure in youth employment.</h1>
             <p className="hero__sub">
               Scholas NY Career Pathways turns years of trusted relationships
-              inside 14 New York City high schools into paid experience, real
-              portfolios, and first jobs for young people the workforce system
-              keeps missing.
+              inside 14 New York City high schools into certified skills,
+              published work, and a first paycheck for 120 young people in the
+              Bronx and Brooklyn.
             </p>
             <div className="btn-row">
               <a

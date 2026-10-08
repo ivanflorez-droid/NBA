@@ -5,6 +5,7 @@ import WhyFit from "@/components/landing/WhyFit";
 import Problem from "@/components/landing/Problem";
 import Advantage from "@/components/landing/Advantage";
 import Program from "@/components/landing/Program";
+import Skills from "@/components/landing/Skills";
 import Evidence from "@/components/landing/Evidence";
 import Testimonials from "@/components/landing/Testimonials";
 import Director from "@/components/landing/Director";
@@ -26,6 +27,7 @@ export default function App() {
         <Problem />
         <Advantage />
         <Program />
+        <Skills />
         <Evidence />
         <Testimonials />
         <Director />

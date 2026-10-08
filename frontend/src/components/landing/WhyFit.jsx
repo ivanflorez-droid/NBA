@@ -22,17 +22,17 @@ export default function WhyFit() {
               </td>
             </tr>
             <tr>
-              <td>Under-resourced youth, ages 14–24</td>
+              <td>Under-resourced youth, ages 15–24</td>
               <td data-label="Scholas NY Career Pathways">
                 <Ph>[CONFIRM: N]</Ph> young people served in FY2026 across our
-                New York network — <Ph>[CONFIRM: %]</Ph> ages 14–24,{" "}
+                New York network — <Ph>[CONFIRM: %]</Ph> ages 15–24,{" "}
                 <Ph>[CONFIRM: %]</Ph> Black youth, by school.
               </td>
             </tr>
             <tr>
               <td>Minimum 25 youth served annually</td>
               <td data-label="Scholas NY Career Pathways">
-                60 young people in the Career Pathways cohort alone;{" "}
+                120 young people in the Career Pathways cohort alone;{" "}
                 <Ph>[CONFIRM: N]</Ph> across all New York programming.
               </td>
             </tr>

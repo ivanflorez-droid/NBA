@@ -23,8 +23,7 @@ export default function Leadership() {
               Credentials in psychology, mental health counseling, education and
               the creative professions, with Scholas implementation experience
               across four continents. <Ph>[N]</Ph> years inside our partner
-              schools, which means our facilitators know participating students
-              by name before the program begins.
+              schools.
             </p>
             <div className="lead-divider" aria-hidden="true" />
             <p className="lead-bio">

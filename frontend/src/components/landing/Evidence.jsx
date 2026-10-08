@@ -8,13 +8,19 @@ const OUTCOMES = [
 ];
 
 const COMMITMENTS = [
-  ["Young people served, ages 14–24", "60"],
-  ["Paid internship completions", "25"],
-  ["Completion rate", "80%"],
-  ["Studio completers with a published portfolio", "100%"],
-  ["Individual career plans completed", "100%"],
-  ["Placed in work, internship or post-secondary within 6 months", "60%"],
-  ["Six-month follow-up contact rate", "85%"],
+  ["Young people reached, ages 15–24", "120"],
+  ["Citizenship immersion participants", "100"],
+  ["Citizenship guides trained", "20"],
+  ["Apprentices drawn from Citizenship", "100%"],
+  ["Apprenticeship completions", "25"],
+  ["Apprentices finishing with paid work and a W-2", "25"],
+  ["Certification exams sat", "50"],
+  ["Total certifications earned", "40"],
+  ["Published client portfolios", "100% of completers"],
+  ["Skills rubric completed at intake and exit", "100%"],
+  ["Measurable gain on 3+ of 7 skill dimensions", "75%"],
+  ["Professional introductions made", "25"],
+  ["Six-month follow-up with a documented next step", "85%"],
 ];
 
 export default function Evidence() {
@@ -69,14 +75,24 @@ export default function Evidence() {
               <Ph>[CONFIRM with the Executive Director before publishing.]</Ph>
             </p>
           </div>
-          <ul className="commit-list" data-testid="commitment-list">
-            {COMMITMENTS.map(([label, value]) => (
-              <li key={label}>
-                <span>{label}</span>
-                <span className="val">{value}</span>
-              </li>
-            ))}
-          </ul>
+          <div>
+            <ul className="commit-list" data-testid="commitment-list">
+              {COMMITMENTS.map(([label, value]) => (
+                <li key={label}>
+                  <span>{label}</span>
+                  <span className="val">{value}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="commit-close">
+              We are a delivery organization, not a staffing agency, and we do
+              not report a job-placement figure we cannot control.
+              &ldquo;Documented next step&rdquo; means an application
+              submitted, an interview secured, an enrolment completed or a
+              referral made — activity we can verify rather than a number we
+              would have to hope for.
+            </p>
+          </div>
         </div>
       </div>
     </section>
