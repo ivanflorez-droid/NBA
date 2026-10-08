@@ -8,13 +8,13 @@ const OUTCOMES = [
 ];
 
 const COMMITMENTS = [
-  ["Young people reached, ages 15–24", "120"],
-  ["Citizenship immersion participants", "100"],
-  ["Citizenship guides trained", "20"],
-  ["Apprentices drawn from Citizenship", "100%"],
-  ["Apprenticeship completions", "25"],
+  ["Apprentices enrolled", "25"],
+  ["Apprenticeship completions", "20 (80%)"],
+  ["Apprentices drawn from Scholas Citizenship", "100%"],
   ["Apprentices finishing with paid work and a W-2", "25"],
+  ["Wages paid to young people", "$17,000"],
   ["Certification exams sat", "50"],
+  ["Apprentices earning at least one certification", "22"],
   ["Total certifications earned", "40"],
   ["Published client portfolios", "100% of completers"],
   ["Skills rubric completed at intake and exit", "100%"],

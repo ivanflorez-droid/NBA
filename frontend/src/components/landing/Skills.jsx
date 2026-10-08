@@ -16,7 +16,7 @@ const SKILLS = [
   ],
   [
     "Delivery under deadline",
-    "Building a viable solution in six days",
+    "A viable solution in six days, then a client campaign in four weeks",
     "Shipping on time",
   ],
   [
@@ -71,11 +71,11 @@ export default function Skills() {
         </table>
         <div className="skills-close">
           <p>
-            Every participant completes a seven-dimension skills rubric at
+            Every apprentice completes a seven-dimension skills rubric at
             intake and at exit — self-assessment alongside facilitator
             assessment. It converts &ldquo;leadership development&rdquo; into a
             reportable figure. We commit to a measurable gain on at least three
-            of the seven dimensions for 75% of participants.
+            of the seven dimensions for 75% of apprentices.
           </p>
         </div>
       </div>

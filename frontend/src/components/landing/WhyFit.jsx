@@ -32,7 +32,7 @@ export default function WhyFit() {
             <tr>
               <td>Minimum 25 youth served annually</td>
               <td data-label="Scholas NY Career Pathways">
-                120 young people in the Career Pathways cohort alone;{" "}
+                One cohort of 25 apprentices in the program year;{" "}
                 <Ph>[CONFIRM: N]</Ph> across all New York programming.
               </td>
             </tr>

@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero__top">
           <span className="wordmark">SCHOLAS USA</span>
           <p className="eyebrow hero__eyebrow">
-            Prepared for the NBA Foundation · New York &amp; Brooklyn Markets
+            A proposal for the NBA Foundation · Fall 2026 cycle
           </p>
         </div>
         <div className="rule rule--dark" aria-hidden="true" />
@@ -15,10 +15,10 @@ export default function Hero() {
           <div>
             <h1>Trust is the missing infrastructure in youth employment.</h1>
             <p className="hero__sub">
-              Scholas NY Career Pathways turns years of trusted relationships
-              inside 14 New York City high schools into certified skills,
-              published work, and a first paycheck for 120 young people in the
-              Bronx and Brooklyn.
+              Scholas NY Career Pathways takes 25 young people from five
+              schools in the Bronx and Brooklyn, and walks them from a six-day
+              Scholas Citizenship immersion to a first paycheck — in one
+              cohort, over twelve months.
             </p>
             <div className="btn-row">
               <a

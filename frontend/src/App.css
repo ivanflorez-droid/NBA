@@ -1066,3 +1066,100 @@ section[id] {
         padding: 26px 22px;
     }
 }
+
+/* pay (Scholas is the employer) */
+.pay-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-top: 52px;
+}
+.pay-stat {
+    padding-top: 16px;
+    border-top: 1px solid var(--hairline);
+}
+.pay-stat__num {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-size: 52px;
+    line-height: 1;
+    color: var(--accent-bright);
+}
+.pay-stat__label {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--body2);
+}
+.pay-rows {
+    margin-top: 48px;
+}
+.pay-rows li {
+    padding: 18px 0;
+    border-top: 1px solid var(--hairline);
+    font-size: 15.5px;
+    line-height: 1.62;
+    color: var(--body);
+}
+.pay-rows li:last-child {
+    border-bottom: 1px solid var(--hairline);
+}
+.pay-rows strong {
+    color: var(--ink);
+}
+
+/* calendar */
+.rtable--cal td:first-child {
+    width: 22%;
+}
+
+/* who this reaches */
+.reach-schools {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-size: clamp(1.3rem, 1.05rem + 1vw, 1.75rem);
+    line-height: 1.45;
+    color: var(--ink);
+    margin-top: 8px;
+}
+.reach-stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    margin-top: 44px;
+}
+.reach-stats li {
+    padding-top: 12px;
+    border-top: 1px solid var(--hairline);
+}
+.rs-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--caption);
+}
+.rs-val {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--ink);
+}
+
+@media (max-width: 1000px) {
+    .pay-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .reach-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .rtable--cal td:first-child {
+        width: 100%;
+    }
+}
